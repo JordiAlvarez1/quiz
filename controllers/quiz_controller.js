@@ -18,7 +18,7 @@ exports.new = function(req, res) {
     {pregunta: "Pregunta", respuesta: "Respuesta"}
   );
 
-  res.render('quizes/new', {quiz: quiz, errors: []});
+  res.render('quizes/new', {quiz: quiz});
 };
 
 // POST /quizes/create
